@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "NodeNext",
+    "outDir": "out",
+    "strict": false,
+    "strictNullChecks": true,
+    "target": "ES2021",
+    "noEmit": true
+  }
+}

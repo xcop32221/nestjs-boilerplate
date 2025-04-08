@@ -1,0 +1,22 @@
+app:
+  port: 3000
+  swagger: true
+
+mongo:
+  uri: mongodb://127.0.0.1:27017,127.0.0.1:27018,127.0.0.1:27019?replicaSet=rs
+
+schedule:
+  key: mI7lfclmb8tyCDhMgc1gTz6wZVKEQ82f
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+  uri: redis://127.0.0.1:6379/0
+  namespace: default
+
+jwt:
+  secret: 215f2340b6067545fc324cda36398229
+
+service:
+  self: http://127.0.0.1:3000
